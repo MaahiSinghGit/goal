@@ -15,8 +15,8 @@ const App =()=>{
       <Props name="karan" work="FO" />
       {/* for default props
       <Props/> */}
+      {/* Itrating over a array and use its functionlity */}
       <Render details={PersonDeatails}/>
-
     </div>
   );
 
