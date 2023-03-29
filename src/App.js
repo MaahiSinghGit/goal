@@ -10,7 +10,6 @@ const App =()=>{
       <PropsRender/>
     </div>
   );
-
 }
 
 export default App;
