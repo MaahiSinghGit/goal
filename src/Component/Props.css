@@ -1,0 +1,13 @@
+.empdetail{
+    border: 1px solid black;
+    margin: 2px;
+    align-items: center;
+}
+.empdetail p{
+    text-align: center;
+    
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+}

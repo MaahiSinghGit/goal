@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Goals from './Component/Goals.js';
+import Props from './Component/Props.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App =()=>{
+  return(
+    <div>
+      <h2>Hello World this is my Goal</h2>
+      <Goals/>
+      <Props name="karan" work="FO" />
+      {/* for default props */}
+      <Props/>
     </div>
   );
+
 }
 
 export default App;

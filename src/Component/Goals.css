@@ -1,0 +1,13 @@
+.head{
+    text-align: center;
+    color: blueviolet;
+}
+.goal{
+    margin: 2rem;
+}
+li{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+}
